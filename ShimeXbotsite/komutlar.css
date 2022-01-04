@@ -1,0 +1,3259 @@
+body{
+  background-color: #1D1D1D;
+}
+
+#alt {
+  padding: 8%;
+  width: 84%;
+  position: absolute;
+  top: 165%;
+  left: 0%;
+  background-color: #121212;
+  z-index: -1;
+}
+
+#altegelenemce {
+  padding: 8%;
+  width: 84%;
+  position: absolute;
+  top: 210%;
+  left: 0%;
+  background-color: #121212;
+  z-index: -1;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    z-index: 1;
+    }
+    
+    a {
+      text-decoration: none;
+      z-index: 1;
+    }
+  
+    .menu a {
+      float: right;
+      z-index: 1;
+    }
+
+    
+    .menu >li >a {
+      display: block;
+      font-size: 15px;
+      color: #fff;
+      transition-duration: 250ms;
+      position: absolute;
+      top: 0%;
+    }
+    
+    .menu ul {
+      transition: 300ms all;
+      z-index: 1;
+    }
+    
+    .menu ul li a {
+      display: block;
+      padding: 25px 15px;
+      color: #fff;
+      transition-duration: 250ms;
+    z-index: 1;
+    }
+    
+    .menu:hover {
+      color: #000000;
+      z-index: 1;
+    }
+    
+    
+    
+    .menu li a:hover {
+      background-color:#000000;
+      z-index: 1;
+    }
+
+.logo {
+   height: 60px; 
+   width: 60px;
+   z-index: 2;
+   position: absolute;
+   border-radius: 100px 100px 100px 100px;
+   top: 1%;
+   left: 1%;
+}
+
+#altyazı{
+  position: absolute;
+  color: #fff;
+  top: 167%;
+  left: 5%;
+  font-size: 180%;
+}
+
+#altyazıegelenemce{
+  position: absolute;
+  color: #fff;
+  top: 212%;
+  left: 5%;
+  font-size: 180%;
+}
+
+#altyazı2{
+  position: absolute;
+  top: 172%;
+  left: 5%;
+  font-size: 100%;
+}
+
+#altyazı2 a{
+  color: #fff;
+}
+
+#altyazı2 a:hover{
+  color: rgb(199, 199, 199);
+}
+
+#altyazı2egelenemce{
+  position: absolute;
+  top: 218%;
+  left: 5%;
+  font-size: 100%;
+}
+
+#altyazı2egelenemce a{
+  color: #fff;
+}
+
+#altyazı2egelenemce a:hover{
+  color: rgb(199, 199, 199);
+}
+
+#altyazı3{
+  position: absolute;
+  top: 178%;
+  left: 5%;
+  font-size: 100%;
+}
+
+#altyazı3 a{
+  color: #fff;
+}
+
+#altyazı3 a:hover{
+  color: rgb(199, 199, 199);
+}
+
+#altyazı3egelenemce{
+  position: absolute;
+  top: 225%;
+  left: 5%;
+  font-size: 100%;
+}
+
+#altyazı3egelenemce a{
+  color: #fff;
+}
+
+#altyazı3egelenemce a:hover{
+  color: rgb(199, 199, 199);
+}
+
+#cmmds{
+  position: absolute;
+  top: 178%;
+  left: 45%;
+  font-size: 100%;
+}
+
+#cmmds a{
+  color: #fff;
+}
+
+#cmmds a:hover{
+  color: rgb(199, 199, 199);
+}
+
+#cmmdsegelenemce{
+  position: absolute;
+  top: 218%;
+  left: 45%;
+  font-size: 100%;
+}
+
+#cmmdsegelenemce a{
+  color: #fff;
+}
+
+#cmmdsegelenemce a:hover{
+  color: rgb(199, 199, 199);
+}
+
+#hkkmd{
+  position: absolute;
+  top: 175%;
+  left: 45%;
+  font-size: 100%;
+}
+
+#hkkmd a{
+  color: #fff;
+}
+
+#hkkmd a:hover{
+  color: rgb(199, 199, 199);
+}
+
+
+#hkkmdegelenemce{
+  position: absolute;
+  top: 221%;
+  left: 45%;
+  font-size: 100%;
+}
+
+#hkkmdegelenemce a{
+  color: #fff;
+}
+
+#hkkmdegelenemce a:hover{
+  color: rgb(199, 199, 199);
+}
+
+#ynlkr{
+  position: absolute;
+  top: 172%;
+  left: 45%;
+  font-size: 100%;
+}
+
+#ynlkr a{
+  color: #fff;
+}
+
+#ynlkr a:hover{
+  color: rgb(199, 199, 199);
+}
+
+#ynlkregelenemce{
+  position: absolute;
+  top: 224%;
+  left: 45%;
+  font-size: 100%;
+}
+
+#ynlkregelenemce a{
+  color: #fff;
+}
+
+#ynlkregelenemce a:hover{
+  color: rgb(199, 199, 199);
+}
+
+#altmenü{
+  position: absolute;
+  top: 167%;
+  left: 45%;
+  font-size: 100%;
+  color: #fff;
+  font-size: 150%;
+}
+
+#altmenüegelenemce{
+  position: absolute;
+  top: 212%;
+  left: 45%;
+  font-size: 100%;
+  color: #fff;
+  font-size: 150%;
+}
+
+#bilgilendirme{
+  position: absolute;
+  top: 167%;
+  left: 77%;
+  font-size: 100%;
+  color: #fff;
+  font-size: 150%;
+}
+
+#bilgilendirmeegelenemce{
+  position: absolute;
+  top: 212%;
+  left: 77%;
+  font-size: 100%;
+  color: #fff;
+  font-size: 150%;
+}
+
+#bilgilendi{
+  position: absolute;
+  top: 172%;
+  left: 77%;
+  font-size: 100%;
+  color: #fff;
+  font-size: 100%;
+}
+
+#bilgilendiegelenemce{
+  position: absolute;
+  top: 218%;
+  left: 77%;
+  font-size: 100%;
+  color: #fff;
+  font-size: 100%;
+}
+
+.komts{
+    padding: 10%;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    height: 30%;
+    width: 8%;
+    background-color: #131313;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.kate{
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  float: inherit;
+  font-size: 150%;
+}
+
+.eglen{
+  background-color:#1f1f1f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  width: 21%;
+  top: 40%;
+  left: 6%;
+  font-size: 110%;
+  border-radius: 10px;
+  transition-duration: 500ms;
+}
+
+.genel{
+  background-color:#1f1f1f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  width: 21%;
+  top: 50%;
+  left: 6%;
+  font-size: 110%;
+  border-radius: 10px;
+  transition-duration: 500ms;
+}
+
+.mod{
+  background-color:#1f1f1f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  width: 21%;
+  top: 60%;
+  left: 6%;
+  font-size: 110%;
+  border-radius: 10px;
+  transition-duration: 500ms;
+}
+
+.müz{
+  background-color:#1f1f1f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  width: 21%;
+  top: 70%;
+  left: 6%;
+  font-size: 110%;
+  border-radius: 10px;
+  transition-duration: 500ms;
+}
+
+.eglen1{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 30%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.kedi{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen2{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 40%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.nah{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen3{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.kaçcm{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen4{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 60%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.aşkölç{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen5{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 70%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.yarra{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen6{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 80%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.rip{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen7{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 90%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.okay{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen8{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 100%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.gollum{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen9{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 110%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.wasted{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen10{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 120%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.stresçarkı{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen11{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 130%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.nezaman{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen12{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 140%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.gusül{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen13{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 150%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.gerigel{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen14{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 160%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.başaramadık{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen15{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 170%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.missionpassed{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen16{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 180%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.nudeat{
+  color: #fff;
+  font-size: 105%;
+}
+
+.eglen17{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 190%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.iq{
+  color: #fff;
+  font-size: 105%;
+}
+
+#eglence{
+  visibility: hidden;
+}
+
+#eglence.aktif{
+  visibility: visible;
+}
+
+.genel1{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 30%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.bilgi{
+  color: #fff;
+  font-size: 105%;
+}
+
+.genel2{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 40%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.yaz{
+  color: #fff;
+  font-size: 105%;
+}
+
+.genel3{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.oylama{
+  color: #fff;
+  font-size: 105%;
+}
+
+.genel4{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 60%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.temizle{
+  color: #fff;
+  font-size: 105%;
+}
+
+.genel5{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 70%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.servericon{
+  color: #fff;
+  font-size: 105%;
+}
+
+.genel6{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 80%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.spotify{
+  color: #fff;
+  font-size: 105%;
+}
+
+.genel7{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 90%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.iconum{
+  color: #fff;
+  font-size: 105%;
+}
+
+.genel8{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 100%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.afkol{
+  color: #fff;
+  font-size: 105%;
+}
+
+.genel9{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 114%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.kullanıcıbilgim{
+  color: #fff;
+  font-size: 105%;
+}
+
+.genel10{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 124%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.ping{
+  color: #fff;
+  font-size: 105%;
+}
+
+.genel11{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 134%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.yazıtura{
+  color: #fff;
+  font-size: 105%;
+}
+
+.genel12{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 144%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.istatistik{
+  color: #fff;
+  font-size: 105%;
+}
+
+.genel13{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 154%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.komutsayısı{
+  color: #fff;
+  font-size: 105%;
+}
+
+.genel14{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 154%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.website{
+  color: #fff;
+  font-size: 105%;
+}
+
+.genel15{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 154%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.bugbildir{
+  color: #fff;
+  font-size: 105%;
+}
+
+#gnl{
+  visibility: hidden;
+}
+
+#gnl.aktif{
+  visibility: visible;
+}
+
+.müzik1{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 30%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.gir{
+  color: #fff;
+  font-size: 105%;
+}
+
+.müzik2{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 40%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.çal{
+  color: #fff;
+  font-size: 105%;
+}
+
+.müzik3{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.çık{
+  color: #fff;
+  font-size: 105%;
+}
+
+.müzik4{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 60%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.geç{
+  color: #fff;
+  font-size: 105%;
+}
+
+.müzik5{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 70%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.durdur{
+  color: #fff;
+  font-size: 105%;
+}
+
+.müzik6{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 80%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.ses{
+  color: #fff;
+  font-size: 105%;
+}
+
+.müzik7{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 90%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.çalan{
+  color: #fff;
+  font-size: 105%;
+}
+
+.müzik8{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 100%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.sıra{
+  color: #fff;
+  font-size: 105%;
+}
+
+.müzik9{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 110%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.duraklat{
+  color: #fff;
+  font-size: 105%;
+}
+
+.müzik10{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 120%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.devam{
+  color: #fff;
+  font-size: 105%;
+}
+
+#müzkü{
+ visibility: hidden;
+}
+
+#müzkü.aktif{
+ visibility: visible;
+}
+
+.modebilgi{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 30%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.modebilgi{
+  color: #fff;
+  font-size: 105%;
+}
+
+.mode1{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 43%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.kaçıklama{
+  color: #fff;
+  font-size: 105%;
+}
+
+.mode2{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 53%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.rolal{
+  color: #fff;
+  font-size: 105%;
+}
+
+.mode3{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 63%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.rolver{
+  color: #fff;
+  font-size: 105%;
+}
+
+.mode4{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 73%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.ban{
+  color: #fff;
+  font-size: 105%;
+}
+
+.mode5{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 83%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.kick{
+  color: #fff;
+  font-size: 105%;
+}
+
+.mode6{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 93%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.sustur{
+  color: #fff;
+  font-size: 105%;
+}
+
+.mode7{
+  padding: 15px 32px;
+  background-color: #131313;
+  position: absolute;
+  width: 40%;
+  top: 103%;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.unban{
+  color: #fff;
+  font-size: 105%;
+}
+
+#mode{
+  visibility: hidden;
+ }
+ 
+ #mode.aktif{
+  visibility: visible;
+ }
+ 
+ .eglen:hover{
+ background-color: #1a1a1a;
+ transition-duration: 300ms;
+ }
+
+ .genel:hover{
+  background-color: #1a1a1a;
+  transition-duration: 300ms;
+  }
+
+  .mod:hover{
+    background-color: #1a1a1a;
+    transition-duration: 300ms;
+    }
+
+    .müz:hover{
+      background-color: #1a1a1a;
+      transition-duration: 300ms;
+      }
+
+  @media screen and (min-width: 1500px) and (max-width: 1920px){
+ 
+    #alt {
+      padding: 8%;
+      width: 84%;
+      position: absolute;
+      top: 170%;
+      left: 0%;
+      background-color: #121212;
+      z-index: -1;
+    }
+
+   #altyazı{
+     position: absolute;
+     color: #fff;
+     top: 171%;
+     left: 5%;
+     font-size: 250%;
+   }
+   
+   #altyazıegelenemce{
+     position: absolute;
+     color: #fff;
+     top: 212%;
+     left: 5%;
+     font-size: 250%;
+   }
+   
+   #altyazı2{
+     position: absolute;
+     top: 175%;
+     left: 5%;
+     font-size: 150%;
+   }
+   
+   #altyazı2 a{
+     color: #fff;
+   }
+   
+   #altyazı2 a:hover{
+     color: rgb(199, 199, 199);
+   }
+   
+   #altyazı2egelenemce{
+     position: absolute;
+     top: 218%;
+     left: 5%;
+     font-size: 150%;
+   }
+   
+   #altyazı2egelenemce a{
+     color: #fff;
+   }
+   
+   #altyazı2egelenemce a:hover{
+     color: rgb(199, 199, 199);
+   }
+   
+   #altyazı3{
+     position: absolute;
+     top: 180%;
+     left: 5%;
+     font-size: 150%;
+   }
+   
+   #altyazı3 a{
+     color: #fff;
+   }
+   
+   #altyazı3 a:hover{
+     color: rgb(199, 199, 199);
+   }
+   
+   #altyazı3egelenemce{
+     position: absolute;
+     top: 223%;
+     left: 5%;
+     font-size: 150%;
+   }
+   
+   #altyazı3egelenemce a{
+     color: #fff;
+   }
+   
+   #altyazı3egelenemce a:hover{
+     color: rgb(199, 199, 199);
+   }
+   
+   #cmmds{
+     position: absolute;
+     top: 179%;
+     left: 45%;
+     font-size: 150%;
+   }
+   
+   #cmmds a{
+     color: #fff;
+   }
+   
+   #cmmds a:hover{
+     color: rgb(199, 199, 199);
+   }
+   
+   #cmmdsegelenemce{
+     position: absolute;
+     top: 218%;
+     left: 45%;
+     font-size: 150%;
+   }
+   
+   #cmmdsegelenemce a{
+     color: #fff;
+   }
+   
+   #cmmdsegelenemce a:hover{
+     color: rgb(199, 199, 199);
+   }
+   
+   #hkkmd{
+     position: absolute;
+     top: 177%;
+     left: 45%;
+     font-size: 150%;
+   }
+   
+   #hkkmd a{
+     color: #fff;
+   }
+   
+   #hkkmd a:hover{
+     color: rgb(199, 199, 199);
+   }
+   
+   
+   #hkkmdegelenemce{
+     position: absolute;
+     top: 221%;
+     left: 45%;
+     font-size: 150%;
+   }
+   
+   #hkkmdegelenemce a{
+     color: #fff;
+   }
+   
+   #hkkmdegelenemce a:hover{
+     color: rgb(199, 199, 199);
+   }
+   
+   #ynlkr{
+     position: absolute;
+     top: 175%;
+     left: 45%;
+     font-size: 150%;
+   }
+   
+   #ynlkr a{
+     color: #fff;
+   }
+   
+   #ynlkr a:hover{
+     color: rgb(199, 199, 199);
+   }
+   
+   #ynlkregelenemce{
+     position: absolute;
+     top: 224%;
+     left: 45%;
+     font-size: 150%;
+   }
+   
+   #ynlkregelenemce a{
+     color: #fff;
+   }
+   
+   #ynlkregelenemce a:hover{
+     color: rgb(199, 199, 199);
+   }
+   
+   #altmenü{
+     position: absolute;
+     top: 171%;
+     left: 45%;
+     font-size: 100%;
+     color: #fff;
+     font-size: 250%;
+   }
+   
+   #altmenüegelenemce{
+     position: absolute;
+     top: 212%;
+     left: 45%;
+     font-size: 100%;
+     color: #fff;
+     font-size: 250%;
+   }
+   
+   #bilgilendirme{
+     position: absolute;
+     top: 171%;
+     left: 77%;
+     font-size: 100%;
+     color: #fff;
+     font-size: 250%;
+   }
+   
+   #bilgilendirmeegelenemce{
+     position: absolute;
+     top: 212%;
+     left: 77%;
+     font-size: 100%;
+     color: #fff;
+     font-size: 250%;
+   }
+   
+   #bilgilendi{
+     position: absolute;
+     top: 175%;
+     left: 77%;
+     font-size: 100%;
+     color: #fff;
+     font-size: 150%;
+   }
+   
+   #bilgilendiegelenemce{
+     position: absolute;
+     top: 217%;
+     left: 77%;
+     font-size: 100%;
+     color: #fff;
+     font-size: 150%;
+   }
+   
+   .komts{
+       padding: 10%;
+       position: absolute;
+       top: 25%;
+       left: 5%;
+       height: 30%;
+       width: 8%;
+       background-color: #131313;
+       z-index: -1;
+       border-radius: 10px;
+   }
+   
+   .kate{
+     color: #fff;
+     position: absolute;
+     top: 30%;
+     left: 14%;
+     float: inherit;
+     font-size: 250%;
+   }
+   
+   .eglen{
+     background-color:#1f1f1f;
+     border: none;
+     color: white;
+     padding: 20px 45px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     margin: 4px 2px;
+     cursor: pointer;
+     position: absolute;
+     width: 21%;
+     top: 40%;
+     left: 6%;
+     font-size: 150%;
+     border-radius: 10px;
+     transition-duration: 500ms;
+   }
+   
+   .genel{
+     background-color:#1f1f1f;
+     border: none;
+     color: white;
+     padding: 20px 45px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     position: absolute;
+     width: 21%;
+     top: 50%;
+     left: 6%;
+     font-size: 150%;
+     border-radius: 10px;
+     transition-duration: 500ms;
+   }
+   
+   .mod{
+     background-color:#1f1f1f;
+     border: none;
+     color: white;
+     padding: 20px 45px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     position: absolute;
+     width: 21%;
+     top: 60%;
+     left: 6%;
+     font-size: 150%;
+     border-radius: 10px;
+     transition-duration: 500ms;
+   }
+   
+   .müz{
+     background-color:#1f1f1f;
+     border: none;
+     color: white;
+     padding: 20px 45px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     position: absolute;
+     width: 21%;
+     top: 70%;
+     left: 6%;
+     font-size: 150%;
+     border-radius: 10px;
+     transition-duration: 500ms;
+   }
+   
+   .eglen1{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 30%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .kedi{
+     color: #fff;
+     font-size: 150%;
+   }
+   
+   .eglen2{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 40%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .nah{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen3{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 50%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .kaçcm{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen4{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 60%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .aşkölç{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen5{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 70%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .yarra{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen6{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 80%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .rip{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen7{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 90%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .okay{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen8{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 100%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .gollum{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen9{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 110%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .wasted{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen10{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 120%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .stresçarkı{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen11{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 130%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .nezaman{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen12{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 140%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .gusül{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen13{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 150%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .gerigel{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen14{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 160%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .başaramadık{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen15{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 170%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .missionpassed{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen16{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 180%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .nudeat{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .eglen17{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 190%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .iq{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel1{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 30%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .bilgi{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel2{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 40%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .yaz{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel3{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 50%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .oylama{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel4{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 60%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .temizle{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel5{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 70%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .servericon{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel6{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 80%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .spotify{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel7{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 90%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .iconum{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel8{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 100%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .afkol{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel9{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 114%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .kullanıcıbilgim{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel10{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 124%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .ping{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel11{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 134%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .yazıtura{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel12{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 144%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .istatistik{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel13{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 154%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .komutsayısı{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel14{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 154%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .website{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .genel15{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 154%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .bugbildir{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .müzik1{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 30%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .gir{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .müzik2{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 40%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .çal{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .müzik3{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 50%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .çık{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .müzik4{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 60%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .geç{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .müzik5{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 70%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .durdur{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .müzik6{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 80%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .ses{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .müzik7{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 90%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .çalan{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .müzik8{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 100%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .sıra{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .müzik9{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 110%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .duraklat{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .müzik10{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 120%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .devam{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .modebilgi{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 30%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .modebilgi{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .mode1{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 43%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .kaçıklama{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .mode2{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 53%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .rolal{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .mode3{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 63%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .rolver{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .mode4{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 73%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .ban{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .mode5{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 83%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .kick{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .mode6{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 93%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .sustur{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .mode7{
+    padding: 20px 45px;
+     background-color: #131313;
+     position: absolute;
+     width: 40%;
+     top: 103%;
+     left: 40%;
+     border-radius: 10px;
+   }
+   
+   .unban{
+    color: #fff;
+    font-size: 150%;
+   }
+   
+   .telerror{
+    display: none;
+  }
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 500px){
+
+    #alt {
+      padding: 8%;
+      width: 84%;
+      height: 45%;
+      position: absolute;
+      top: 165%;
+      left: 0%;
+      background-color: #121212;
+      z-index: -1;
+    }
+    #bilgilendirme{
+      position: absolute;
+      top: 190%;
+      left: 30%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 150%;
+    }
+    
+    #bilgilendi{
+      position: absolute;
+      top: 197%;
+      left: 30%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 100%;
+    }
+  
+    .eglen{
+display: none;
+      }
+     
+      .genel{
+        display: none;
+       }
+     
+       .mod{
+        display: none;
+         }
+     
+         .müz{
+          display: none;
+           }
+           .komts{
+            display: none;
+        }
+        
+        .kate{
+          display: none;
+        }
+  
+        .komts{
+          padding: 10px 10px;
+          position: absolute;
+          top: 10%;
+          left: 5%;
+          height: 30%;
+          width: 100%;
+          background-color: #131313;
+          z-index: -1;
+          border-radius: 10px;
+      }
+      
+      .kate{
+        color: #fff;
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        float: inherit;
+        font-size: 150%;
+      }
+      
+      .eglen{
+        background-color:#1f1f1f;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        width: 21%;
+        top: 40%;
+        left: 6%;
+        font-size: 110%;
+        border-radius: 10px;
+        transition-duration: 500ms;
+      }
+      
+      .genel{
+        background-color:#1f1f1f;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        width: 21%;
+        top: 50%;
+        left: 6%;
+        font-size: 110%;
+        border-radius: 10px;
+        transition-duration: 500ms;
+      }
+      
+      .mod{
+        background-color:#1f1f1f;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        width: 21%;
+        top: 60%;
+        left: 6%;
+        font-size: 110%;
+        border-radius: 10px;
+        transition-duration: 500ms;
+      }
+      
+      .müz{
+        background-color:#1f1f1f;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        width: 21%;
+        top: 70%;
+        left: 6%;
+        font-size: 110%;
+        border-radius: 10px;
+        transition-duration: 500ms;
+      }
+      
+      .eglen1{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 30%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .kedi{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen2{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 40%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .nah{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen3{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 50%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .kaçcm{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen4{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 60%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .aşkölç{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen5{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 70%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .yarra{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen6{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 80%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .rip{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen7{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 90%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .okay{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen8{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 100%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .gollum{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen9{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 110%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .wasted{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen10{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 120%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .stresçarkı{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen11{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 130%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .nezaman{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen12{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 140%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .gusül{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen13{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 150%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .gerigel{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen14{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 160%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .başaramadık{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen15{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 170%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .missionpassed{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen16{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 180%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .nudeat{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .eglen17{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 190%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .iq{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      #eglence{
+        visibility: hidden;
+      }
+      
+      #eglence.aktif{
+        visibility: visible;
+      }
+      
+      .genel1{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 30%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .bilgi{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .genel2{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 40%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .yaz{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .genel3{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 50%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .oylama{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .genel4{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 60%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .temizle{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .genel5{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 70%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .servericon{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .genel6{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 80%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .spotify{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .genel7{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 90%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .iconum{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .genel8{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 100%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .afkol{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .genel9{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 114%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .kullanıcıbilgim{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .genel10{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 124%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .ping{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .genel11{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 134%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .yazıtura{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .genel12{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 144%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .istatistik{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .genel13{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 154%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .komutsayısı{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .genel14{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 154%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .website{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .genel15{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 154%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .bugbildir{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      #gnl{
+        visibility: hidden;
+      }
+      
+      #gnl.aktif{
+        visibility: visible;
+      }
+      
+      .müzik1{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 30%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .gir{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .müzik2{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 40%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .çal{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .müzik3{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 50%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .çık{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .müzik4{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 60%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .geç{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .müzik5{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 70%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .durdur{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .müzik6{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 80%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .ses{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .müzik7{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 90%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .çalan{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .müzik8{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 100%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .sıra{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .müzik9{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 110%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .duraklat{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .müzik10{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 120%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .devam{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      #müzkü{
+       visibility: hidden;
+      }
+      
+      #müzkü.aktif{
+       visibility: visible;
+      }
+      
+      .modebilgi{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 30%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .modebilgi{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .mode1{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 43%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .kaçıklama{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .mode2{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 53%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .rolal{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .mode3{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 63%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .rolver{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .mode4{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 73%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .ban{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .mode5{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 83%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .kick{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .mode6{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 93%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .sustur{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      .mode7{
+        padding: 15px 32px;
+        background-color: #131313;
+        position: absolute;
+        width: 40%;
+        top: 103%;
+        left: 40%;
+        border-radius: 10px;
+      }
+      
+      .unban{
+        color: #fff;
+        font-size: 105%;
+      }
+      
+      #mode{
+        visibility: hidden;
+       }
+       
+       #mode.aktif{
+        visibility: visible;
+       }
+       
+       .eglen:hover{
+       background-color: #1a1a1a;
+       transition-duration: 300ms;
+       }
+      
+       .genel:hover{
+        background-color: #1a1a1a;
+        transition-duration: 300ms;
+        }
+      
+        .mod:hover{
+          background-color: #1a1a1a;
+          transition-duration: 300ms;
+          }
+      
+          .müz:hover{
+            background-color: #1a1a1a;
+            transition-duration: 300ms;
+            }
+  
+      }
+

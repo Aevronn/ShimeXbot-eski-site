@@ -1,0 +1,940 @@
+body{
+    background-color: #1D1D1D;
+  }
+  
+  .alt {
+  padding: 8%;
+  width: 84%;
+  position: absolute;
+  top: 150%;
+  left: 0%;
+  background-color: #121212;
+  z-index: -1;
+  }
+  
+  .menu * {
+      padding: 0;
+      margin: 0;
+      border: 0;
+      list-style: none;
+      z-index: 1;
+      }
+      
+      a {
+        text-decoration: none;
+        z-index: 1;
+      }
+    
+      .menu a {
+        float: right;
+        z-index: 1;
+      }
+  
+      
+      .menu >li >a {
+        display: block;
+        font-size: 15px;
+        color: #fff;
+        transition-duration: 250ms;
+        position: absolute;
+        top: 0%;
+      }
+      
+      .menu ul {
+        transition: 300ms all;
+        z-index: 1;
+      }
+      
+      .menu ul li a {
+        display: block;
+        padding: 25px 15px;
+        color: #fff;
+        transition-duration: 250ms;
+      z-index: 1;
+      }
+      
+      .menu:hover {
+        color: #000000;
+        z-index: 1;
+      }
+      
+      
+      
+      .menu li a:hover {
+        background-color:#000000;
+        z-index: 1;
+      }
+  
+  .logo {
+     height: 60px; 
+     width: 60px;
+     z-index: 2;
+     position: absolute;
+     border-radius: 150px 150px 150px 150px;
+     top: 1%;
+     left: 1%;
+  }
+
+  .altyazı{
+    position: absolute;
+    color: #fff;
+    top: 147%;
+    left: 5%;
+    font-size: 180%;
+  }
+  
+  .altyazı2{
+    position: absolute;
+    top: 158%;
+    left: 5%;
+    font-size: 100%;
+  }
+  
+  .altyazı2 a{
+    color: #fff;
+  }
+  
+  .altyazı2 a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .altyazı3{
+    position: absolute;
+    top: 165%;
+    left: 5%;
+    font-size: 100%;
+  }
+  
+  .altyazı3 a{
+    color: #fff;
+  }
+  
+  .altyazı3 a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .cmmds{
+    position: absolute;
+    top: 163%;
+    left: 45%;
+    font-size: 100%;
+  }
+  
+  .cmmds a{
+    color: #fff;
+  }
+  
+  .cmmds a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .hkkmd{
+    position: absolute;
+    top: 160%;
+    left: 45%;
+    font-size: 100%;
+  }
+  
+  .hkkmd a{
+    color: #fff;
+  }
+  
+  .hkkmd a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .ynlkr{
+    position: absolute;
+    top: 157%;
+    left: 45%;
+    font-size: 100%;
+  }
+  
+  .ynlkr a{
+    color: #fff;
+  }
+  
+  .ynlkr a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .altmenü{
+    position: absolute;
+    top: 148%;
+    left: 45%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 150%;
+  }
+  
+  .bilgilendirme{
+    position: absolute;
+    top: 148%;
+    left: 77%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 150%;
+  }
+  
+  .bilgilendi{
+    position: absolute;
+    top: 154%;
+    left: 77%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 100%;
+  }
+
+  .hakkimizdaarka{
+position: absolute;
+background-color: #131313;
+padding: 8%;
+width: 60%;
+height: 80%;
+top: 30%;
+left: 12%;
+border-radius: 20px;
+  }
+  
+#başlıka{
+position: absolute;
+color: #fff;
+top: 28%;
+left: 41%;
+font-size: 200%;
+}
+
+#yazı1{
+position: absolute;    
+color: #fff;
+top: 42%;
+left: 15%;
+font-size: 130%;
+}
+
+#yazı2{
+position: absolute;
+color: #ffffff;
+top: 50% ;
+left: 15% ;
+font-size: 130%
+}
+
+#yazı3{
+position: absolute;
+color: #ffffff;
+top: 58% ;
+left: 15% ;
+font-size: 130%
+}
+
+#yazı4{
+position: absolute;
+color: #ffffff;
+top: 66% ;
+left: 15% ;
+font-size: 130%
+}
+
+    #yazı5{
+position: absolute;
+color: #ffffff;
+top: 74% ;
+left: 15% ;
+font-size: 130%
+}
+        
+
+@media screen and (min-width: 1500px) and (max-width: 1920px){
+  .altyazı{
+    position: absolute;
+    color: #fff;
+    top: 148%;
+    left: 5%;
+    font-size: 250%;
+  }
+  
+  .altyazı2{
+    position: absolute;
+    top: 157%;
+    left: 5%;
+    font-size: 150%;
+  }
+  
+  .altyazı2 a{
+    color: #fff;
+  }
+  
+  .altyazı2 a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .altyazı3{
+    position: absolute;
+    top: 162%;
+    left: 5%;
+    font-size: 150%;
+  }
+  
+  .altyazı3 a{
+    color: #fff;
+  }
+  
+  .altyazı3 a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .cmmds{
+    position: absolute;
+    top: 163%;
+    left: 45%;
+    font-size: 150%;
+  }
+  
+  .cmmds a{
+    color: #fff;
+  }
+  
+  .cmmds a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .hkkmd{
+    position: absolute;
+    top: 160%;
+    left: 45%;
+    font-size: 150%;
+  }
+  
+  .hkkmd a{
+    color: #fff;
+  }
+  
+  .hkkmd a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .ynlkr{
+    position: absolute;
+    top: 157%;
+    left: 45%;
+    font-size: 150%;
+  }
+  
+  .ynlkr a{
+    color: #fff;
+  }
+  
+  .ynlkr a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .altmenü{
+    position: absolute;
+    top: 148%;
+    left: 45%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 250%;
+  }
+  
+  .bilgilendirme{
+    position: absolute;
+    top: 148%;
+    left: 77%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 250%;
+  }
+  
+  .bilgilendi{
+    position: absolute;
+    top: 154%;
+    left: 77%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 150%;
+  }
+
+  #başlıka{
+    position: absolute;
+    color: #fff;
+    top: 28%;
+    left: 41%;
+    font-size: 250%;
+    }
+    
+    #yazı1{
+    position: absolute;    
+    color: #fff;
+    top: 42%;
+    left: 15%;
+    font-size: 200%;
+    }
+    
+    #yazı2{
+    position: absolute;
+    color: #ffffff;
+    top: 50% ;
+    left: 15% ;
+    font-size: 200%
+    }
+    
+    #yazı3{
+    position: absolute;
+    color: #ffffff;
+    top: 58% ;
+    left: 15% ;
+    font-size: 200%
+    }
+    
+    #yazı4{
+    position: absolute;
+    color: #ffffff;
+    top: 66% ;
+    left: 15% ;
+    font-size: 200%
+    }
+    
+        #yazı5{
+    position: absolute;
+    color: #ffffff;
+    top: 74% ;
+    left: 15% ;
+    font-size: 200%
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1100px){
+
+    .altyazı{
+      position: absolute;
+      color: #fff;
+      top: 149%;
+      left: 5%;
+      font-size: 150%;
+    }
+    
+    .altyazı2{
+      position: absolute;
+      top: 158%;
+      left: 5%;
+      font-size: 100%;
+    }
+    
+    .altyazı2 a{
+      color: #fff;
+    }
+    
+    .altyazı2 a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .altyazı3{
+      position: absolute;
+      top: 164%;
+      left: 5%;
+      font-size: 100%;
+    }
+    
+    .altyazı3 a{
+      color: #fff;
+    }
+    
+    .altyazı3 a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .cmmds{
+      position: absolute;
+      top: 158%;
+      left: 45%;
+      font-size: 100%;
+    }
+    
+    .cmmds a{
+      color: #fff;
+    }
+    
+    .cmmds a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .hkkmd{
+      position: absolute;
+      top: 161%;
+      left: 45%;
+      font-size: 100%;
+    }
+    
+    .hkkmd a{
+      color: #fff;
+    }
+    
+    .hkkmd a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .ynlkr{
+      position: absolute;
+      top: 164%;
+      left: 45%;
+      font-size: 100%;
+    }
+    
+    .ynlkr a{
+      color: #fff;
+    }
+    
+    .ynlkr a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .altmenü{
+      position: absolute;
+      top: 149%;
+      left: 45%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 150%;
+    }
+    
+    .bilgilendirme{
+      position: absolute;
+      top: 149%;
+      left: 77%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 150%;
+    }
+    
+    .bilgilendi{
+      position: absolute;
+      top: 156%;
+      left: 77%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 100%;
+    }
+
+    .alt {
+      padding: 8%;
+      width: 84%;
+      position: absolute;
+      top: 150%;
+      left: 0%;
+      background-color: #121212;
+      z-index: -1;
+      }
+
+      #başlıka{
+        position: absolute;
+        color: #fff;
+        top: 25%;
+        left: 41%;
+        font-size: 200%;
+        }
+}
+
+@media screen and (min-width: 700px) and (max-width: 850px){
+  .altyazı{
+    position: absolute;
+    color: #fff;
+    top: 149%;
+    left: 5%;
+    font-size: 150%;
+  }
+  
+  .altyazı2{
+    position: absolute;
+    top: 158%;
+    left: 5%;
+    font-size: 100%;
+  }
+  
+  .altyazı2 a{
+    color: #fff;
+  }
+  
+  .altyazı2 a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .altyazı3{
+    position: absolute;
+    top: 164%;
+    left: 5%;
+    font-size: 100%;
+  }
+  
+  .altyazı3 a{
+    color: #fff;
+  }
+  
+  .altyazı3 a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .cmmds{
+    position: absolute;
+    top: 158%;
+    left: 45%;
+    font-size: 100%;
+  }
+  
+  .cmmds a{
+    color: #fff;
+  }
+  
+  .cmmds a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .hkkmd{
+    position: absolute;
+    top: 161%;
+    left: 45%;
+    font-size: 100%;
+  }
+  
+  .hkkmd a{
+    color: #fff;
+  }
+  
+  .hkkmd a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .ynlkr{
+    position: absolute;
+    top: 164%;
+    left: 45%;
+    font-size: 100%;
+  }
+  
+  .ynlkr a{
+    color: #fff;
+  }
+  
+  .ynlkr a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .altmenü{
+    position: absolute;
+    top: 149%;
+    left: 45%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 150%;
+  }
+  
+  .bilgilendirme{
+    position: absolute;
+    top: 149%;
+    left: 77%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 150%;
+  }
+  
+  .bilgilendi{
+    position: absolute;
+    top: 156%;
+    left: 77%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 100%;
+  }
+
+  .alt {
+    padding: 8%;
+    width: 84%;
+    position: absolute;
+    top: 150%;
+    left: 0%;
+    background-color: #121212;
+    z-index: -1;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px){
+
+  .alt {
+    padding: 8%;
+    width: 84%;
+    height: 15%;
+    position: absolute;
+    top: 150%;
+    left: 0%;
+    background-color: #121212;
+    z-index: -1;
+    }
+
+  .altyazı{
+    position: absolute;
+    color: #fff;
+    top: 149%;
+    left: 5%;
+    font-size: 150%;
+  }
+  
+  .altyazı2{
+    position: absolute;
+    top: 158%;
+    left: 5%;
+    font-size: 100%;
+  }
+  
+  .altyazı2 a{
+    color: #fff;
+  }
+  
+  .altyazı2 a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .altyazı3{
+    position: absolute;
+    top: 164%;
+    left: 5%;
+    font-size: 100%;
+  }
+  
+  .altyazı3 a{
+    color: #fff;
+  }
+  
+  .altyazı3 a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .cmmds{
+    position: absolute;
+    top: 158%;
+    left: 45%;
+    font-size: 100%;
+  }
+  
+  .cmmds a{
+    color: #fff;
+  }
+  
+  .cmmds a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .hkkmd{
+    position: absolute;
+    top: 161%;
+    left: 45%;
+    font-size: 100%;
+  }
+  
+  .hkkmd a{
+    color: #fff;
+  }
+  
+  .hkkmd a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .ynlkr{
+    position: absolute;
+    top: 164%;
+    left: 45%;
+    font-size: 100%;
+  }
+  
+  .ynlkr a{
+    color: #fff;
+  }
+  
+  .ynlkr a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .altmenü{
+    position: absolute;
+    top: 149%;
+    left: 45%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 150%;
+  }
+  
+  .bilgilendirme{
+    position: absolute;
+    top: 149%;
+    left: 72%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 150%;
+  }
+  
+  .bilgilendi{
+    position: absolute;
+    top: 156%;
+    left: 72%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 100%;
+  }
+
+  .hakkimizdaarka{
+    position: absolute;
+    background-color: #131313;
+    padding: 8%;
+    width: 70%;
+    height: 80%;
+    top: 30%;
+    left: 9%;
+    border-radius: 20px;
+      }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+
+  .alt {
+    padding: 8%;
+    width: 84%;
+    height: 40%;
+    position: absolute;
+    top: 150%;
+    left: 0%;
+    background-color: #121212;
+    z-index: -1;
+    }
+
+ 
+
+  .altyazı{
+    position: absolute;
+    color: #fff;
+    top: 149%;
+    left: 5%;
+    font-size: 150%;
+  }
+  
+  .altyazı2{
+    position: absolute;
+    top: 158%;
+    left: 5%;
+    font-size: 100%;
+  }
+  
+  .altyazı2 a{
+    color: #fff;
+  }
+  
+  .altyazı2 a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .altyazı3{
+    position: absolute;
+    top: 164%;
+    left: 5%;
+    font-size: 100%;
+  }
+  
+  .altyazı3 a{
+    color: #fff;
+  }
+  
+  .altyazı3 a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .cmmds{
+    position: absolute;
+    top: 158%;
+    left: 60%;
+    font-size: 100%;
+  }
+  
+  .cmmds a{
+    color: #fff;
+  }
+  
+  .cmmds a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .hkkmd{
+    position: absolute;
+    top: 161%;
+    left: 60%;
+    font-size: 100%;
+  }
+  
+  .hkkmd a{
+    color: #fff;
+  }
+  
+  .hkkmd a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .ynlkr{
+    position: absolute;
+    top: 164%;
+    left: 60%;
+    font-size: 100%;
+  }
+  
+  .ynlkr a{
+    color: #fff;
+  }
+  
+  .ynlkr a:hover{
+    color: rgb(199, 199, 199);
+  }
+  
+  .altmenü{
+    position: absolute;
+    top: 149%;
+    left: 60%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 150%;
+  }
+  
+  .bilgilendirme{
+    position: absolute;
+    top: 175%;
+    left: 25%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 150%;
+  }
+  
+  .bilgilendi{
+    position: absolute;
+    top: 182%;
+    left: 25%;
+    font-size: 100%;
+    color: #fff;
+    font-size: 100%;
+  }
+
+  .hakkimizdaarka{
+    position: absolute;
+    background-color: #131313;
+    padding: 8%;
+    width: 65%;
+    height: 80%;
+    top: 30%;
+    left: 12%;
+    border-radius: 20px;
+      }
+
+      #başlıka{
+        position: absolute;
+        color: #fff;
+        top: 28%;
+        left: 20%;
+        font-size: 200%;
+        }
+}

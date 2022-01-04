@@ -1,0 +1,1759 @@
+body{
+  background-color: #1D1D1D;
+}
+
+.alt {
+padding: 8%;
+width: 84%;
+position: absolute;
+top: 250%;
+left: 0%;
+background-color: #121212;
+z-index: -1;
+}
+
+#menu2{
+ display: none;
+}
+
+.menu * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    z-index: 1;
+    }
+    
+    a {
+      text-decoration: none;
+      z-index: 1;
+    }
+  
+    .menu a {
+      float: right;
+      z-index: 1;
+    }
+
+    
+    .menu >li >a {
+      display: block;
+      font-size: 15px;
+      color: #fff;
+      transition-duration: 250ms;
+      position: absolute;
+      top: 0%;
+    }
+    
+    .menu ul {
+      transition: 300ms all;
+      z-index: 1;
+    }
+    
+    .menu ul li a {
+      display: block;
+      padding: 25px 15px;
+      color: #fff;
+      transition-duration: 250ms;
+    z-index: 1;
+    }
+    
+    .menu:hover {
+      color: #000000;
+      z-index: 1;
+    }
+    
+    
+    
+    .menu li a:hover {
+      background-color:#000000;
+      z-index: 1;
+    }
+
+.logo {
+   height: 60px; 
+   width: 60px;
+   z-index: 2;
+   position: absolute;
+   border-radius: 150px 150px 150px 150px;
+   top: 1%;
+   left: 1%;
+}
+
+.komutlar * {
+  padding: 6px;
+  margin: 0;
+  border: 0;
+  list-style: none;
+  z-index: 1;
+  color: #fff;
+  }
+
+.komutlar{
+  margin: 10px;
+  padding: 10px;
+  width: 40%;
+  background-color: #121212;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+
+}
+
+.yazı{
+position: absolute;
+color: #fff;
+top: 65%;
+left: 8%;
+font-size: 200%;
+font-family: "verdana" ;
+}
+
+.yazı2{
+  position: absolute;
+  color: #fff;
+  top: 70%;
+  left: 5%;
+  font-size: 200%;
+  font-family: "verdana" ;
+}
+
+.davet{
+  position: absolute;
+  top: 79%;
+  left: 4%;
+  padding: 10px 50px;
+  background-color: #ae00ff;
+  color: #fff;
+  border-radius: 100px;
+  transition-duration: 500ms;
+  font-family: "verdana" ;
+}
+
+.davet:hover{
+  background-color: #8c00ff;
+  transition-duration: 300ms;
+}
+
+.davet2{
+  position: absolute;
+  top: 79%;
+  left: 32%;
+  padding: 10px 50px;
+  background-color: #ae00ff;
+  color: #fff;
+  border-radius: 100px;
+  transition-duration: 500ms;
+  font-family: "verdana" ;
+}
+
+.davet2:hover{
+  background-color: #8c00ff;
+  transition-duration: 300ms;
+}
+
+
+.rsm{
+  position: absolute;
+  border-radius: 250px 250px 250px 250px;
+  width: 500px;
+  height: 500px;
+  top: 30%;
+  right: 6%;
+}
+
+.biyazı{
+  font-size: 120%;
+}
+
+.biyazı2{
+  font-size: 120%;
+}
+
+.komt{
+  color: #fff;
+  position: absolute;
+  top: 145%;
+  left: 40%;
+  font-size: 200%;
+  font-family: "verdana" ;
+}
+
+.egl{
+  padding: 10px;
+  background-color: #121212;
+  position: absolute;
+  top: 165%;
+  left: 6%;
+  border-radius: 15px 15px 15px 15px;
+  color: #fff;
+  font-size: 125%;
+  width: 39%;
+  font-family: "verdana" ;
+}
+
+.mds{
+  padding: 10px;
+  background-color: #121212;
+  position: absolute;
+  top: 185%;
+  left: 47%;
+  border-radius: 15px 15px 15px 15px;
+  color: #fff;
+  font-size: 125%;
+  font-family: "verdana" ;
+}
+
+.mzk{
+  padding: 10px;
+  background-color: #121212;
+  position: absolute;
+  top: 200%;
+  left: 6%;
+  border-radius: 15px 15px 15px 15px;
+  color: #fff;
+  font-size: 125%;
+  width: 39%;
+  font-family: "verdana" ;
+}
+
+.gnl{
+  padding: 10px;
+  background-color: #121212;
+  position: absolute;
+  top: 220%;
+  left: 47%;
+  border-radius: 15px 15px 15px 15px;
+  color: #fff;
+  font-size: 125%;
+  font-family: "verdana" ;
+}
+
+.altyazı{
+  position: absolute;
+  color: #fff;
+  top: 247%;
+  left: 5%;
+  font-size: 180%;
+  font-family: "verdana" ;
+}
+
+.altyazı2{
+  position: absolute;
+  top: 258%;
+  left: 5%;
+  font-size: 100%;
+  font-family: "verdana" ;
+}
+
+.altyazı2 a{
+  color: #fff;
+}
+
+.altyazı2 a:hover{
+  color: rgb(199, 199, 199);
+}
+
+.altyazı3{
+  position: absolute;
+  top: 265%;
+  left: 5%;
+  font-size: 100%;
+  font-family: "verdana" ;
+}
+
+.altyazı3 a{
+  color: #fff;
+}
+
+.altyazı3 a:hover{
+  color: rgb(199, 199, 199);
+}
+
+.cmmds{
+  position: absolute;
+  top: 258%;
+  left: 45%;
+  font-size: 100%;
+  font-family: "verdana" ;
+}
+
+.cmmds a{
+  color: #fff;
+}
+
+.cmmds a:hover{
+  color: rgb(199, 199, 199);
+}
+
+.hkkmd{
+  position: absolute;
+  top: 261%;
+  left: 45%;
+  font-size: 100%;
+  font-family: "verdana" ;
+}
+
+.hkkmd a{
+  color: #fff;
+}
+
+.hkkmd a:hover{
+  color: rgb(199, 199, 199);
+}
+
+.ynlkr{
+  position: absolute;
+  top: 264%;
+  left: 45%;
+  font-size: 100%;
+  font-family: "verdana" ;
+}
+
+.ynlkr a{
+  color: #fff;
+}
+
+.ynlkr a:hover{
+  color: rgb(199, 199, 199);
+}
+
+.altmenü{
+  position: absolute;
+  top: 248%;
+  left: 45%;
+  font-size: 100%;
+  color: #fff;
+  font-size: 150%;
+  font-family: "verdana" ;
+}
+
+.bilgilendirme{
+  position: absolute;
+  top: 248%;
+  left: 77%;
+  font-size: 100%;
+  color: #fff;
+  font-size: 150%;
+  font-family: "verdana" ;
+}
+
+.bilgilendi{
+  position: absolute;
+  top: 254%;
+  left: 77%;
+  font-size: 100%;
+  color: #fff;
+  font-size: 100%;
+  font-family: "verdana" ;
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1920px){
+.alt {
+padding: 8%;
+width: 84%;
+position: absolute;
+top: 250%;
+left: 0%;
+background-color: #121212;
+z-index: -1;
+}
+  
+#menu2{
+  display: none;
+ }
+ 
+
+.menu * {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none;
+  z-index: 1;
+  }
+  
+  a {
+    text-decoration: none;
+    z-index: 1;
+  }
+
+  .menu a {
+    float: right;
+    z-index: 1;
+  }
+
+  
+  .menu >li >a {
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    transition-duration: 250ms;
+    position: absolute;
+    top: 0%;
+  }
+  
+  .menu ul {
+    transition: 300ms all;
+    z-index: 1;
+  }
+  
+  .menu ul li a {
+    display: block;
+    padding: 25px 15px;
+    color: #fff;
+    transition-duration: 250ms;
+  z-index: 1;
+  }
+  
+  .menu:hover {
+    color: #000000;
+    z-index: 1;
+  }
+  
+  
+  
+  .menu li a:hover {
+    background-color:#000000;
+    z-index: 1;
+  }
+
+
+.logo {
+   height: 60px; 
+   width: 60px;
+   z-index: 2;
+   position: absolute;
+   border-radius: 150px 150px 150px 150px;
+   top: 1%;
+   left: 1%;
+}
+
+.komutlar * {
+  padding: 6px;
+  margin: 0;
+  border: 0;
+  list-style: none;
+  z-index: 1;
+  color: #fff;
+  }
+
+.komutlar{
+  margin: 10px;
+  padding: 10px;
+  width: 40%;
+  background-color: #121212;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+
+}
+
+.yazı{
+position: absolute;
+color: #fff;
+top: 65%;
+left: 8%;
+font-size: 200%;
+font-family: "verdana" ;
+}
+
+.yazı2{
+  position: absolute;
+  color: #fff;
+  top: 70%;
+  left: 6%;
+  font-size: 200%;
+font-family: "verdana";
+}
+
+.davet{
+  position: absolute;
+  top: 79%;
+  left: 1%;
+  padding: 20px 90px;
+  background-color: #ae00ff;
+  color: #fff;
+  border-radius: 100px;
+  transition-duration: 500ms;
+  font-family: "verdana" ;
+}
+
+.davet:hover{
+  background-color: #8c00ff;
+  transition-duration: 300ms;
+}
+
+.davet2{
+  position: absolute;
+  top: 79%;
+  left: 24%;
+  padding: 20px 90px;
+  background-color: #ae00ff;
+  color: #fff;
+  border-radius: 100px;
+  transition-duration: 500ms;
+  font-family: "verdana" ;
+}
+
+.davet2:hover{
+  background-color: #8c00ff;
+  transition-duration: 300ms;
+}
+
+
+.rsm{
+  position: absolute;
+  border-radius: 500px 500px 500px 500px;
+  width: 1000px;
+  height: 1000px;
+  top: 30%;
+  right: 4%;
+}
+
+.biyazı{
+  font-size: 120%;
+}
+
+.biyazı2{
+  font-size: 120%;
+}
+
+.komt{
+  color: #fff;
+  position: absolute;
+  top: 145%;
+  left: 40%;
+  font-size: 200%;
+  font-family: "verdana" ;
+}
+
+.egl{
+  padding: 10px;
+  background-color: #121212;
+  position: absolute;
+  top: 165%;
+  left: 6%;
+  border-radius: 15px 15px 15px 15px;
+  color: #fff;
+  font-size: 150%;
+  width: 39%;
+  font-family: "verdana" ;
+}
+
+.mds{
+  padding: 10px;
+  background-color: #121212;
+  position: absolute;
+  top: 180%;
+  left: 47%;
+  border-radius: 15px 15px 15px 15px;
+  color: #fff;
+  font-size: 150%;
+  font-family: "verdana" ;
+  width: 42%
+}
+
+.mzk{
+  padding: 10px;
+  background-color: #121212;
+  position: absolute;
+  top: 195%;
+  left: 6%;
+  border-radius: 15px 15px 15px 15px;
+  color: #fff;
+  font-size: 150%;
+  width: 39%;
+  font-family: "verdana" ;
+}
+
+.gnl{
+  padding: 10px;
+  background-color: #121212;
+  position: absolute;
+  top: 210%;
+  left: 47%;
+  border-radius: 15px 15px 15px 15px;
+  color: #fff;
+  font-size: 150%;
+  font-family: "verdana" ;
+}
+
+.altyazı{
+  position: absolute;
+  color: #fff;
+  top: 250%;
+  left: 5%;
+  font-size: 250%;
+  font-family: "verdana" ;
+}
+
+.altyazı2{
+  position: absolute;
+  top: 259%;
+  left: 5%;
+  font-size: 150%;
+  font-family: "verdana" ;
+}
+
+.altyazı2 a{
+  color: #fff;
+}
+
+.altyazı2 a:hover{
+  color: rgb(199, 199, 199);
+}
+
+.altyazı3{
+  position: absolute;
+  top: 263%;
+  left: 5%;
+  font-size: 150%;
+  font-family: "verdana" ;
+}
+
+.altyazı3 a{
+  color: #fff;
+}
+
+.altyazı3 a:hover{
+  color: rgb(199, 199, 199);
+}
+
+.cmmds{
+  position: absolute;
+  top: 260%;
+  left: 45%;
+  font-size: 150%;
+  font-family: "verdana" ;
+}
+
+.cmmds a{
+  color: #fff;
+}
+
+.cmmds a:hover{
+  color: rgb(199, 199, 199);
+}
+
+.hkkmd{
+  position: absolute;
+  top: 263%;
+  left: 45%;
+  font-size: 150%;
+  font-family: "verdana" ;
+}
+
+.hkkmd a{
+  color: #fff;
+}
+
+.hkkmd a:hover{
+  color: rgb(199, 199, 199);
+}
+
+.ynlkr{
+  position: absolute;
+  top: 266%;
+  left: 45%;
+  font-size: 150%;
+  font-family: "verdana" ;
+}
+
+.ynlkr a{
+  color: #fff;
+}
+
+.ynlkr a:hover{
+  color: rgb(199, 199, 199);
+}
+
+.altmenü{
+  position: absolute;
+  top: 250%;
+  left: 45%;
+  font-size: 100%;
+  color: #fff;
+  font-size: 250%;
+  font-family: "verdana" ;
+}
+
+.bilgilendirme{
+  position: absolute;
+  top: 250%;
+  left: 77%;
+  font-size: 100%;
+  color: #fff;
+  font-size: 250%;
+  font-family: "verdana" ;
+}
+
+.bilgilendi{
+  position: absolute;
+  top: 257%;
+  left: 77%;
+  font-size: 100%;
+  color: #fff;
+  font-size: 150%;
+  font-family: "verdana" ;
+}
+}
+
+@media screen and (min-width: 850px) and (max-width: 1100px){
+  .yazı{
+    position: absolute;
+    color: #fff;
+    top: 45%;
+    left: 12%;
+    font-size: 150%;
+    }
+    
+    #menu2{
+      display: none;
+     }
+     
+
+    .yazı2{
+      position: absolute;
+      color: #fff;
+      top: 48%;
+      left: 9%;
+      font-size: 150%;
+    }
+    
+    .davet{
+      position: absolute;
+      top: 55%;
+      left: 4%;
+      padding: 10px 3%;
+      background-color: #ae00ff;
+      color: #fff;
+      border-radius: 100px;
+      transition-duration: 500ms;
+    }
+    
+    .davet:hover{
+      background-color: #8c00ff;
+      transition-duration: 300ms;
+    }
+    
+    .davet2{
+      position: absolute;
+      top: 55%;
+      left: 33%;
+      padding: 10px 2%;
+      background-color: #ae00ff;
+      color: #fff;
+      border-radius: 100px;
+      transition-duration: 500ms;
+    }
+    
+    .davet2:hover{
+      background-color: #8c00ff;
+      transition-duration: 300ms;
+    }
+    
+    
+    .rsm{
+      position: absolute;
+      border-radius: 350px 350px 350px 350px;
+      width: 40%;
+      height: 40%;
+      top: 30%;
+      right: 6%;
+    }
+
+    .biyazı{
+      font-size: 120%;
+    }
+    
+    .biyazı2{
+      font-size: 120%;
+    }
+    
+    .komt{
+      color: #fff;
+      position: absolute;
+      top: 110%;
+      left: 40%;
+      font-size: 200%;
+    }
+    
+    .egl{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 130%;
+      left: 6%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+      width: 39%;
+    }
+    
+    .mds{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 145%;
+      left: 47%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+    }
+    
+    .mzk{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 160%;
+      left: 6%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+      width: 39%;
+    }
+    
+    .gnl{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 175%;
+      left: 47%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+    }
+
+    .altyazı{
+      position: absolute;
+      color: #fff;
+      top: 198%;
+      left: 5%;
+      font-size: 180%;
+    }
+    
+    .altyazı2{
+      position: absolute;
+      top: 205%;
+      left: 5%;
+      font-size: 100%;
+    }
+    
+    .altyazı2 a{
+      color: #fff;
+    }
+    
+    .altyazı2 a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .altyazı3{
+      position: absolute;
+      top: 209%;
+      left: 5%;
+      font-size: 100%;
+    }
+    
+    .altyazı3 a{
+      color: #fff;
+    }
+    
+    .altyazı3 a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .cmmds{
+      position: absolute;
+      top: 205%;
+      left: 45%;
+      font-size: 100%;
+    }
+    
+    .cmmds a{
+      color: #fff;
+    }
+    
+    .cmmds a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .hkkmd{
+      position: absolute;
+      top: 207%;
+      left: 45%;
+      font-size: 100%;
+    }
+    
+    .hkkmd a{
+      color: #fff;
+    }
+    
+    .hkkmd a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .ynlkr{
+      position: absolute;
+      top: 209%;
+      left: 45%;
+      font-size: 100%;
+    }
+    
+    .ynlkr a{
+      color: #fff;
+    }
+    
+    .ynlkr a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .altmenü{
+      position: absolute;
+      top: 199%;
+      left: 45%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 150%;
+    }
+    
+    .bilgilendirme{
+      position: absolute;
+      top: 199%;
+      left: 77%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 150%;
+    }
+    
+    .bilgilendi{
+      position: absolute;
+      top: 203%;
+      left: 77%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 100%;
+    }
+
+    .alt {
+      padding: 8%;
+      width: 84%;
+      position: absolute;
+      top: 200%;
+      left: 0%;
+      background-color: #121212;
+      z-index: -1;
+      }
+}
+
+@media screen and (min-width: 700px) and (max-width: 850px){
+  .alt {
+    padding: 8%;
+    width: 84%;
+    height: 5%;
+    position: absolute;
+    top: 250%;
+    left: 0%;
+    background-color: #121212;
+    z-index: -1;
+    }
+
+    #menu2{
+      display: none;
+     }
+     
+
+  .yazı{
+    position: absolute;
+    color: #fff;
+    top: 45%;
+    left: 7%;
+    font-size: 150%;
+    }
+    
+    .yazı2{
+      position: absolute;
+      color: #fff;
+      top: 48%;
+      left: 3%;
+      font-size: 150%;
+    }
+    
+    .davet{
+      position: absolute;
+      top: 52%;
+      left: 1%;
+      padding: 10px 3%;
+      background-color: #ae00ff;
+      color: #fff;
+      border-radius: 100px;
+      transition-duration: 500ms;
+    }
+    
+    .davet:hover{
+      background-color: #8c00ff;
+      transition-duration: 300ms;
+    }
+    
+    .davet2{
+      position: absolute;
+      top: 52%;
+      left: 34%;
+      padding: 10px 2%;
+      background-color: #ae00ff;
+      color: #fff;
+      border-radius: 100px;
+      transition-duration: 500ms;
+    }
+    
+    .davet2:hover{
+      background-color: #8c00ff;
+      transition-duration: 300ms;
+    }
+    
+    
+    .rsm{
+      position: absolute;
+      border-radius: 700px 700px 700px 700px;
+      width: 43%;
+      height: 35%;
+      top: 30%;
+      right: 0%;
+    }
+
+    .biyazı{
+      font-size: 120%;
+    }
+    
+    .biyazı2{
+      font-size: 120%;
+    }
+    
+    .komt{
+      color: #fff;
+      position: absolute;
+      top: 110%;
+      left: 40%;
+      font-size: 200%;
+    }
+    
+    .egl{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 130%;
+      left: 6%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+      width: 39%;
+    }
+    
+    .mds{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 145%;
+      left: 47%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+    }
+    
+    .mzk{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 160%;
+      left: 6%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+      width: 39%;
+    }
+    
+    .gnl{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 175%;
+      left: 47%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+    }
+
+    .altyazı{
+      position: absolute;
+      color: #fff;
+      top: 198%;
+      left: 5%;
+      font-size: 180%;
+    }
+    
+    .altyazı2{
+      position: absolute;
+      top: 205%;
+      left: 5%;
+      font-size: 100%;
+    }
+    
+    .altyazı2 a{
+      color: #fff;
+    }
+    
+    .altyazı2 a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .altyazı3{
+      position: absolute;
+      top: 209%;
+      left: 5%;
+      font-size: 100%;
+    }
+    
+    .altyazı3 a{
+      color: #fff;
+    }
+    
+    .altyazı3 a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .cmmds{
+      position: absolute;
+      top: 205%;
+      left: 45%;
+      font-size: 100%;
+    }
+    
+    .cmmds a{
+      color: #fff;
+    }
+    
+    .cmmds a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .hkkmd{
+      position: absolute;
+      top: 207%;
+      left: 45%;
+      font-size: 100%;
+    }
+    
+    .hkkmd a{
+      color: #fff;
+    }
+    
+    .hkkmd a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .ynlkr{
+      position: absolute;
+      top: 209%;
+      left: 45%;
+      font-size: 100%;
+    }
+    
+    .ynlkr a{
+      color: #fff;
+    }
+    
+    .ynlkr a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .altmenü{
+      position: absolute;
+      top: 199%;
+      left: 45%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 150%;
+    }
+    
+    .bilgilendirme{
+      position: absolute;
+      top: 199%;
+      left: 77%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 150%;
+    }
+    
+    .bilgilendi{
+      position: absolute;
+      top: 203%;
+      left: 77%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 100%;
+    }
+
+    .alt {
+      padding: 8%;
+      width: 84%;
+      position: absolute;
+      top: 200%;
+      left: 0%;
+      background-color: #121212;
+      z-index: -1;
+      }
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px){
+ 
+  .alt {
+    padding: 8%;
+    width: 84%;
+    height: 10%;
+    position: absolute;
+    top: 250%;
+    left: 0%;
+    background-color: #121212;
+    z-index: -1;
+    }
+ 
+    #menu2{
+      display: none;
+     }
+     
+
+  .yazı{
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 9%;
+    font-size: 120%;
+    }
+    
+    .yazı2{
+      position: absolute;
+      color: #fff;
+      top: 43%;
+      left: 5%;
+      font-size: 120%;
+    }
+    
+    .davet{
+      position: absolute;
+      top: 46%;
+      left: 3%;
+      padding: 7px 2%;
+      background-color: #ae00ff;
+      color: #fff;
+      border-radius: 100px;
+      transition-duration: 500ms;
+    }
+    
+    .davet:hover{
+      background-color: #8c00ff;
+      transition-duration: 300ms;
+    }
+    
+    .davet2{
+      position: absolute;
+      top: 51%;
+      left: 3%;
+      padding: 7px 1%;
+      background-color: #ae00ff;
+      color: #fff;
+      border-radius: 100px;
+      transition-duration: 500ms;
+    }
+    
+    .davet2:hover{
+      background-color: #8c00ff;
+      transition-duration: 300ms;
+    }
+    
+    
+    .rsm{
+      position: absolute;
+      border-radius: 500px 500px 500px 500px;
+      width: 30%;
+      height: 20%;
+      top: 30%;
+      right: 6%;
+    }
+
+    .biyazı{
+      font-size: 120%;
+    }
+    
+    .biyazı2{
+      font-size: 120%;
+    }
+    
+    .komt{
+      color: #fff;
+      position: absolute;
+      top: 110%;
+      left: 40%;
+      font-size: 200%;
+    }
+    
+    .egl{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 130%;
+      left: 6%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+      width: 39%;
+    }
+    
+    .mds{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 145%;
+      left: 47%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+    }
+    
+    .mzk{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 160%;
+      left: 6%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+      width: 39%;
+    }
+    
+    .gnl{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 175%;
+      left: 47%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+    }
+
+    .altyazı{
+      position: absolute;
+      color: #fff;
+      top: 198%;
+      left: 5%;
+      font-size: 180%;
+    }
+    
+    .altyazı2{
+      position: absolute;
+      top: 205%;
+      left: 5%;
+      font-size: 100%;
+    }
+    
+    .altyazı2 a{
+      color: #fff;
+    }
+    
+    .altyazı2 a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .altyazı3{
+      position: absolute;
+      top: 209%;
+      left: 5%;
+      font-size: 100%;
+    }
+    
+    .altyazı3 a{
+      color: #fff;
+    }
+    
+    .altyazı3 a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .cmmds{
+      position: absolute;
+      top: 205%;
+      left: 45%;
+      font-size: 100%;
+    }
+    
+    .cmmds a{
+      color: #fff;
+    }
+    
+    .cmmds a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .hkkmd{
+      position: absolute;
+      top: 207%;
+      left: 45%;
+      font-size: 100%;
+    }
+    
+    .hkkmd a{
+      color: #fff;
+    }
+    
+    .hkkmd a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .ynlkr{
+      position: absolute;
+      top: 209%;
+      left: 45%;
+      font-size: 100%;
+    }
+    
+    .ynlkr a{
+      color: #fff;
+    }
+    
+    .ynlkr a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .altmenü{
+      position: absolute;
+      top: 199%;
+      left: 45%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 150%;
+    }
+    
+    .bilgilendirme{
+      position: absolute;
+      top: 199%;
+      left: 77%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 150%;
+    }
+    
+    .bilgilendi{
+      position: absolute;
+      top: 203%;
+      left: 77%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 100%;
+    }
+
+    .alt {
+      padding: 8%;
+      width: 84%;
+      position: absolute;
+      top: 200%;
+      left: 0%;
+      background-color: #121212;
+      z-index: -1;
+      }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+ 
+  .menu * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    z-index: 1;
+    }
+    
+    a {
+      text-decoration: none;
+      z-index: 1;
+    }
+  
+    .menu a {
+      float: right;
+      z-index: 1;
+    }
+
+    
+    .menu >li >a {
+      display: block;
+      font-size: 15px;
+      color: #fff;
+      transition-duration: 250ms;
+      position: absolute;
+      top: 0%;
+    }
+    
+    .menu ul {
+      transition: 300ms all;
+      z-index: 1;
+    }
+    
+    .menu ul li a {
+      display: block;
+      padding: 15px 5px;
+      color: #fff;
+      transition-duration: 250ms;
+    z-index: 1;
+    }
+    
+    .menu:hover {
+      color: #000000;
+      z-index: 1;
+    }
+    
+    
+    
+    .menu li a:hover {
+      background-color:#000000;
+      z-index: 1;
+    }
+
+  .alt {
+    padding: 8%;
+    width: 84%;
+    height: 45%;
+    position: absolute;
+    top: 280%;
+    left: 0%;
+    background-color: #121212;
+    z-index: -1;
+    }
+ 
+  .yazı{
+    position: absolute;
+    color: #fff;
+    top: 85%;
+    left: 4%;
+    font-size: 120%;
+    }
+    
+    .yazı2{
+      position: absolute;
+      color: #fff;
+      top: 90%;
+      left: 4%;
+      font-size: 120%;
+    }
+    
+    .davet{
+      position: absolute;
+      top: 103%;
+      left: 3%;
+      padding: 7px 2%;
+      background-color: #ae00ff;
+      color: #fff;
+      border-radius: 100px;
+      transition-duration: 500ms;
+    }
+    
+    .davet:hover{
+      background-color: #8c00ff;
+      transition-duration: 300ms;
+    }
+    
+    .davet2{
+      position: absolute;
+      top: 112%;
+      left: 3%;
+      padding: 7px 1%;
+      background-color: #ae00ff;
+      color: #fff;
+      border-radius: 100px;
+      transition-duration: 500ms;
+    }
+    
+    .davet2:hover{
+      background-color: #8c00ff;
+      transition-duration: 300ms;
+    }
+    
+    
+    .rsm{
+      position: absolute;
+      border-radius: 500px 500px 500px 500px;
+      width: 300px;
+      height: 300px;
+      top: 23%;
+      left: 5%;
+    }
+
+    .biyazı{
+      font-size: 120%;
+    }
+    
+    .biyazı2{
+      font-size: 120%;
+    }
+    
+    .komt{
+      color: #fff;
+      position: absolute;
+      top: 125%;
+      left: 5%;
+      font-size: 200%;
+    }
+    
+    .egl{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 145%;
+      left: 6%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+      width: 88%;
+    }
+    
+    .mds{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 175%;
+      left: 6%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+    }
+    
+    .mzk{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 210%;
+      left: 6%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+      width: 88%;
+    }
+    
+    .gnl{
+      padding: 10px;
+      background-color: #121212;
+      position: absolute;
+      top: 245%;
+      left: 5%;
+      border-radius: 15px 15px 15px 15px;
+      color: #fff;
+      font-size: 125%;
+    }
+
+    .altyazı{
+      position: absolute;
+      color: #fff;
+      top: 278%;
+      left: 5%;
+      font-size: 150%;
+    }
+    
+    .altyazı2{
+      position: absolute;
+      top: 288%;
+      left: 5%;
+      font-size: 100%;
+    }
+    
+    .altyazı2 a{
+      color: #fff;
+    }
+    
+    .altyazı2 a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .altyazı3{
+      position: absolute;
+      top: 295%;
+      left: 5%;
+      font-size: 100%;
+    }
+    
+    .altyazı3 a{
+      color: #fff;
+    }
+    
+    .altyazı3 a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .cmmds{
+      position: absolute;
+      top: 288%;
+      left: 60%;
+      font-size: 100%;
+    }
+    
+    .cmmds a{
+      color: #fff;
+    }
+    
+    .cmmds a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .hkkmd{
+      position: absolute;
+      top: 291%;
+      left: 60%;
+      font-size: 100%;
+    }
+    
+    .hkkmd a{
+      color: #fff;
+    }
+    
+    .hkkmd a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .ynlkr{
+      position: absolute;
+      top: 294%;
+      left: 60%;
+      font-size: 100%;
+    }
+    
+    .ynlkr a{
+      color: #fff;
+    }
+    
+    .ynlkr a:hover{
+      color: rgb(199, 199, 199);
+    }
+    
+    .altmenü{
+      position: absolute;
+      top: 278%;
+      left: 60%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 150%;
+    }
+    
+    .bilgilendirme{
+      position: absolute;
+      top: 300%;
+      left: 30%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 150%;
+    }
+    
+    .bilgilendi{
+      position: absolute;
+      top: 308%;
+      left: 30%;
+      font-size: 100%;
+      color: #fff;
+      font-size: 100%;
+    }
+}
